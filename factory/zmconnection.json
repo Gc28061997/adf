@@ -1,0 +1,9 @@
+{
+	"name": "zmconnection",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9837e519-959c-4edf-a57d-b0f4d5f636ba",
+		"tenantId": "e8478384-cb61-4101-a919-0d44933868eb"
+	}
+}
