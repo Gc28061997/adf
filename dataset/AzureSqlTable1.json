@@ -1,0 +1,70 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "exp_imp",
+				"type": "varchar"
+			},
+			{
+				"name": "Year",
+				"type": "varchar"
+			},
+			{
+				"name": "month",
+				"type": "varchar"
+			},
+			{
+				"name": "ym",
+				"type": "varchar"
+			},
+			{
+				"name": "Country",
+				"type": "varchar"
+			},
+			{
+				"name": "Custom",
+				"type": "varchar"
+			},
+			{
+				"name": "hs2",
+				"type": "varchar"
+			},
+			{
+				"name": "hs4",
+				"type": "varchar"
+			},
+			{
+				"name": "hs6",
+				"type": "varchar"
+			},
+			{
+				"name": "hs9",
+				"type": "varchar"
+			},
+			{
+				"name": "Q1",
+				"type": "varchar"
+			},
+			{
+				"name": "Q2",
+				"type": "varchar"
+			},
+			{
+				"name": "Value",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "custom_2017_2020"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

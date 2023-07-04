@@ -1,0 +1,9 @@
+{
+	"name": "AdfSqlConnection",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a9ef5457-20e3-4ebb-b098-fb695a0a6e9e",
+		"tenantId": "70e49018-83bc-4f5c-abc4-e374fe4c2895"
+	}
+}
